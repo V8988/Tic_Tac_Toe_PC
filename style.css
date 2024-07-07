@@ -1,0 +1,75 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Bodoni Moda SC", serif;;
+}
+body{
+    background-color: rgb(70, 133, 133);
+    text-align: center;
+
+}
+#name{
+    color: rgb(222, 249, 196);
+    margin-top: 10px;
+}
+#container{
+    margin-top: 5vh;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#game{
+    height: 60vmin;
+    width: 70vmin;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 0px;
+    box-shadow: 0 0 1rem rgb(0,0,0,0.3);
+    font-size: 3rem;
+    font-weight: bolder;
+    color: rgb(222, 249, 196);
+    background-color: rgb(80, 180, 152);
+}
+#reset{
+    padding: 20px;
+    border-radius: 0.7rem;
+    border: 0px;
+    font-size: 1rem;
+    color: rgb(222, 249, 196);
+    background-color:black;
+    font-weight: bolder;
+}
+#new_game{
+    padding: 20px;
+    border-radius: 0.7rem;
+    border: 0px;
+    font-size: 1rem;
+    color: rgb(222, 249, 196);
+    background-color:black;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#msg{
+    color:rgb(222, 249, 196);
+    font-size: 4vh;
+}
+.msg_container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
